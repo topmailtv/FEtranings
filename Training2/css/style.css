@@ -2,7 +2,7 @@ div{background-color: aquamarine;
 
 margin: 5px;
 color: brown;
-padding: 5px;
+
 }
 .container{
     background-color: darkgrey;
@@ -18,13 +18,13 @@ border-radius: 50%;
 .border-red{border: 10px solid grey;}
 .border-green{border: 10px solid rgb(15, 192, 95)204, 134, 134);}
 
-#box1 {background-color: red;
+#box1, #box4 {background-color: red;
     
 }
-#box2 {background-color: yellow;
+#box2, #box5 {background-color: yellow;
     
 }
-#box3 {background-color: green;
+#box3, #box6 {background-color: green;
     
 }
-   
+ table, td{border: 1px solid grey;}  

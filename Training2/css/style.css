@@ -1,0 +1,30 @@
+div{background-color: aquamarine;
+
+margin: 5px;
+color: brown;
+padding: 5px;
+}
+.container{
+    background-color: darkgrey;
+    width: 120px;
+    height: 35++
+    0px;
+} 
+.item{
+    height: 100px;
+width: 100px;
+border-radius: 50%;
+}
+.border-red{border: 10px solid grey;}
+.border-green{border: 10px solid rgb(15, 192, 95)204, 134, 134);}
+
+#box1 {background-color: red;
+    
+}
+#box2 {background-color: yellow;
+    
+}
+#box3 {background-color: green;
+    
+}
+   

@@ -4,6 +4,7 @@
 }
 body{
     background-color: teal;
+    background: radial-gradient();
     font-family: sans-serif;
 }
 p{

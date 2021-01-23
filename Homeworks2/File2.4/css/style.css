@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#header{
+    background-color: rgb(231, 194, 126);
+    width: 600px;
+    height: 20px;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    font-size: 16px;
+}
+#forma{
+    background-color: peachpuff;
+    height: 500px;
+    width: 600px;
+}
+#titleform{
+    text-align: center;
+    height: 20px;
+    padding:10px 0px 10px 0px;
+    font-size: 16px;
+}
+.container{
+ padding: 20px; 
+}
+.data1{
+    display:inline;
+}
+.data{
+
+}
+.data3{
+    
+}
+#name, #address, #email {
+    width: 20px;
+    padding: 10px;
+
+}
+#btnsubmit {
+    text-align: center;
+}

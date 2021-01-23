@@ -22,11 +22,14 @@ table{
     
 }
 #nametext{
-    width: 98%;
+    width: 99%;
+   
 }
 #descriptext{
-    width: 99%;
+    width: 100%;
 }
+
 td{
     border: 1px solid grey;
+    padding: 3px;
 }

@@ -3,15 +3,16 @@ table{
     border-collapse: collapse;   
 }
 #bottom, td{
-    border: 1px solid rgb(151, 149, 149);
+    border: 1px solid rgb(175, 172, 172);
     padding: 10px;
 }
-#head{
-    border:1px solid black;
+#header{
     text-align: center;
     font-weight: bold;
     padding: 10px;
 }
-
+#head{
+    border:1px solid black;
+}
 
 

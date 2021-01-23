@@ -1,3 +1,32 @@
-table {
-    border: 1px colid grey;
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+table{
+    width: 400px;
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px; 
+}
+.Header{
+    background-color: rgb(154, 198, 235);
+    text-align: center;
+    border: 1px solid black;
+    padding: 3px;
+
+}
+#Button{
+    text-align: center;
+    border: 1px solid black;
+    
+}
+#nametext{
+    width: 98%;
+}
+#descriptext{
+    width: 99%;
+}
+td{
+    border: 1px solid grey;
 }

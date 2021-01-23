@@ -8,17 +8,17 @@
 </head>
 <body>
     <table>
-        <th>
-            <td>Name</td>
-            <td>Value</td>
-        </th>
+        <tr>
+            <td  class="Header">Name</td>
+            <td  class="Header">Value</td>
+        </tr>
         <tr>
             <td>Name</td>
             <td><label for="name"></label>
-                <input type="text" name="name" required>
+                <input id="nametext" type="text" name="name" required>
             </td>
         </tr>
-        <tr>
+        <tr id="Sex">
             <td>Sex</td>
             <td><label>
                 <input type="radio" name="sex" value="Male">Male
@@ -27,7 +27,7 @@
                 <input type="radio" name="sex" value="Female">Female
                 </label></td>
         </tr>
-        <tr>
+        <tr id="Eyes">
             <td>Eye color</td>
             <td><label for="Eye"></label>
                 <select name="Eye">
@@ -36,18 +36,18 @@
                   <option value="Grey">grey</option> 
                 </select> </td>
         </tr>
-        <tr>
+        <tr id="Check">
             <td>Check all fhat apply</td>
             <td><input type="checkbox" name="Answer" value="ok" /> Over 6 feet tall<br />
                 <input type="checkbox" name="Answer" value="yes" /> Over 200 pounds<br /></td>
         </tr>
-        <tr>
+        <tr id="Description">
             <td colspan="2">Describe your athletic ability:
-                <textarea name="comment" id="comment" cols="48" rows="8"> </textarea>
+                <textarea id="descriptext" name="comment" id="comment" cols="48" rows="8"> </textarea>
             </td>
             
         </tr>
-        <tr>
+        <tr id="Button">
             <td colspan="2"><button type="submit">Enter my information</button></td>
         </tr>
     </table>

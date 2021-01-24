@@ -1,61 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <div id="header">The World of Fruit</div>
-    <div id="forma">
-        <div id="titleform">Fruit Survey</div>
-    <form action="" method="GET" name="" class="loginform">
-<div class="container">
-    <div class="data1">
-<p id="name"><label  for="name">Name</label>
-<input type="text" name="name" >
-</p>
-<p id="address"><label  for="address">Address</label>
-    <input type="text" name="address" >
-</p>
-<p id="email"><label for="email">Email</label>
-    <input type="email" name="email" ></p>
-    </div>
-    <div class="data2">
-        <p><label for="piecesfruit">How many pieces of fruit do you eat per day?</label>
-            <p><input type="radio" name="option0" value="op0">0</p>
-            <p></p><input type="radio" name="option1" value="op1">1</p>
-            <p></p><input type="radio" name="option2" value="op2">2</p>
-            <p></p><input type="radio" name="option3" value="op3">More than 2</p>
-        </p>
-    </div>
-    <div class="data3">
-        <div id="favouritefruit">
-            <p>
-                <label for="favouritefruit">Me favourite fruit</label>
-            </p>
-        </div>
-        <div id="fruits">
-            <select size="4" name="fruit">
-            <option value="Apple">Apple</option> 
-            <option value="Banana">Banana</option> 
-            <option value="Plum">Plum</option> 
-            <option value="Pomegranate">Pomegranate</option>
-            <option value="Lemon">Lemon</option>
-            <option value="Orange">Orange</option>
-          </select>
-        </div>
-        
-    </div>
-    <div class="data4">
-        <p><label for="likebrochure">Would you like a brochure?</label>
-            <input type="checkbox" name="checklike" ></p>
-    </div>
-    <p id="btnsubmit"> <input  type="submit" value="Submit"></p>
-</div>
+    <div id="titleform">Fruit Survey</div>
+    <div id="root">
+        <div id="left">
+            <div class="data1">
+                <p>Name</p>
+            </div>
+            <div class="data1">
+            <p>Address</p>
+            </div>
+            <div class="data1">
+                <p>Email</p>
+            </div>
+            <div>
+                <p>How many pieces of fruit do you eat per day?</p>
+            </div>
+            <div>
+                <p>My favourite fruit</p>
+            </div>
 
-    </form>   
+            <div>
+                <p>Would you like a brochure?</p>
+            </div>
+        </div>
+        <div id="right">
+            <div>
+                <form method="GET" name="forma" class="loginform">
+                    <div class="data1">
+                        <p id="name">
+                            <label></label>
+                            <input type="text" name="name">
+                        </p>
+                        <p id="address">
+                            <label></label>
+                            <input type="text" name="address">
+                        </p>
+                        <p id="email">
+                            <label></label>
+                            <input type="email" name="email">
+                        </p>
+                    </div>
+                    <div class="data2">
+                        <p><input type="radio" name="option0" value="op0">0</p>
+                        <p><input type="radio" name="option1" value="op1">1</p>
+                        <p><input type="radio" name="option2" value="op2">2</p>
+                        <p><input type="radio" name="option3" value="op3">More than 2</p>
+                    </div>
+                    <div class="data3">
+                        <div id="fruits">
+                            <select size="4" name="fruit">
+                                <option value="Apple">Apple</option>
+                                <option value="Banana">Banana</option>
+                                <option value="Plum">Plum</option>
+                                <option value="Pomegranate">Pomegranate</option>
+                                <option value="Lemon">Lemon</option>
+                                <option value="Orange">Orange</option>
+                            </select>
+                        </div>
+
+                    </div>
+                    <div class="data4">
+                        <p>
+                            <label></label>
+                            <input type="checkbox" name="checklike">
+                        </p>
+                    </div>
+                    <div id="btnsubmit">
+                        <input type="submit" value="Submit">
+                    </div>
+
+
+                </form>
+
+
+            </div>
+        </div>
     </div>
 </body>
+
 </html>

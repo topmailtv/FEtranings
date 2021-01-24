@@ -2,16 +2,16 @@ table{
     border: 2px solid black;
     border-collapse: collapse;   
 }
-#bottom, td{
+.bottom, td{
     border: 1px solid rgb(175, 172, 172);
     padding: 10px;
 }
-#header{
+.header{
     text-align: center;
     font-weight: bold;
     padding: 10px;
 }
-#head{
+.head{
     border:1px solid black;
 }
 

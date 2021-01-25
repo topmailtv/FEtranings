@@ -4,42 +4,62 @@
 }
 #header{
     background-color: rgb(231, 194, 126);
-    width: 100%;
+    width: 700px;
     height: 20px;
     text-align: center;
     padding: 5px 0px 5px 0px;
     font-size: 16px;
 }
-
 #titleform{
     text-align: center;
+    width: 700px;
     height: 20px;
     padding:10px 0px 10px 0px;
     font-size: 16px;
+    background-color: rgb(245, 213, 33);
 }
 #root{
     display: flex;
-   
 }
-
 .data1{
- text-align: right;  
+ text-align: right; 
+ height: 20px; 
 }
-.data2{
-    text-align: left;  
+.data2, .data3{
+    text-align: right;
+    height: 100px; 
 }
-.data3{
-    text-align: left;  
+.data4{
+    text-align: right;
+    height: 50px;  
+}
+.data5{
+    text-align: left;
+    height: 90px;  
+}
+.data6, .data7{
+    text-align: left; 
+    height: 100px;  
+}
+.data8{
+    text-align: left; 
+    height: 50px; 
+}
+.data1, .data2, .data3, .data4, .data6, .data7, .data8 {
+    padding: 5px;
+}
+#name, #address, #email, #btnsubmit {
+    padding: 5px;
 }
 #left{
-    width: 30%;
+    width: 200px;
     height: 500px;
-    background-color: aquamarine;
+    background-color: rgb(245, 213, 33);
 }
 #right{
-    width: 70%;
-    background-color: bisque;
+    width: 500px;
     height: 500px;
+    background-color: rgb(245, 213, 33);
 }
 #btnsubmit {
     text-align: left;

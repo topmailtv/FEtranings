@@ -23,10 +23,11 @@ table{
 }
 #nametext{
     width: 99%;
-   
+   box-shadow: inset 1px 1px 0px 0px rgb(214, 213, 213);
 }
 #descriptext{
     width: 100%;
+    box-shadow: inset 2px 2px 0px 0px rgb(143, 143, 143);
 }
 
 td{

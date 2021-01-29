@@ -1,67 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="Description" content="An example of homework for the frontend course">
+    <meta name="keywords" content="make, list, a table, layout, the form, frontend">
+    <meta name="Author" content="Vladyslav Talovyria">
+    <title>Homework File2.3 Frontend SkillUp</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <table>
-        <tr>
-            <td  class="Header">Name</td>
-            <td  class="Header">Value</td>
-        </tr>
-        <tr>
-            <td>Name</td>
-            <td><label>
-                <input id="nametext" type="text" name="name" required>
-                </label>
-            </td>
-        </tr>
-        <tr id="Sex">
-            <td>Sex</td>
-            <td><div>
-                <label>
-                   <input type="radio" name="sex" value="Male">Male
-                </label>
-                </div> 
-                <div>
-                <label>
-                   <input type="radio" name="sex" value="Female" checked>Female
-                </label>
-                </div>
-            </td>
-        </tr>
-        <tr id="Eyes">
-            <td>Eye color</td>
-            <td><label></label>
-                <select name="Eye">
-                  <option value="Green">green</option> 
-                  <option value="Blue">blue</option> 
-                  <option value="Grey">grey</option> 
-                </select> </td>
-        </tr>
-        <tr id="Check">
-            <td>Check all fhat apply</td>
-            <td><input type="checkbox" name="Answer" value="ok" /> Over 6 feet tall<br />
-                <input type="checkbox" name="Answer" value="yes" /> Over 200 pounds<br /></td>
-        </tr>
-        <tr id="Description">
-            <td colspan="2">Describe your athletic ability:
-                <textarea id="descriptext" name="comment" cols="48" rows="8"> </textarea>
-            </td>
-            
-        </tr>
-        <tr id="Button">
-            
-            <td colspan="2">
-                <form>
-                    <button type="button" name="Enter my information" value="Enter my information">Enter my information</button>
-                </form>
-            </td>
-            
-        </tr>
-    </table>
+    <header>
+        <div id="top">Домашнее задание 2.3 подготовительного курса по Frontend онлайн школы SkillUP</div>
+        <nav>
+            <div class="home">
+                <p><a class="phome" href="/Homeworks2/index.html">Список домашних заданий</a></p>
+            </div>
+            <div class="task">
+                <p><a class="phome" href="/Homeworks2/index.html#File2.3">Задание 2.3</a></p>
+            </div>
+            <div class="solution">
+                <p>Решение задания 2.3</p>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <table>
+            <tr>
+                <td class="Header">Name</td>
+                <td class="Header">Value</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td><label>
+                        <input id="nametext" type="text" name="name" required>
+                    </label>
+                </td>
+            </tr>
+            <tr id="Sex">
+                <td>Sex</td>
+                <td>
+                    <div>
+                        <label>
+                            <input type="radio" name="sex" value="Male">Male
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="radio" name="sex" value="Female" checked>Female
+                        </label>
+                    </div>
+                </td>
+            </tr>
+            <tr id="Eyes">
+                <td>Eye color</td>
+                <td><label></label>
+                    <select name="Eye">
+                        <option value="Green">green</option>
+                        <option value="Blue">blue</option>
+                        <option value="Grey">grey</option>
+                    </select>
+                </td>
+            </tr>
+            <tr id="Check">
+                <td>Check all fhat apply</td>
+                <td><input type="checkbox" name="Answer" value="ok" /> Over 6 feet tall<br />
+                    <input type="checkbox" name="Answer" value="yes" /> Over 200 pounds<br />
+                </td>
+            </tr>
+            <tr id="Description">
+                <td colspan="2">Describe your athletic ability:
+                    <textarea id="descriptext" name="comment" cols="48" rows="8"> </textarea>
+                </td>
+
+            </tr>
+            <tr id="Button">
+
+                <td colspan="2">
+                    <form>
+                        <button type="button" name="Enter my information" value="Enter my information">Enter my
+                            information</button>
+                    </form>
+                </td>
+
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <p id="pfooter">&copy; SkillUp 2021</p>
+    </footer>
 </body>
+
 </html>

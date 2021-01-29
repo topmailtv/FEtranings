@@ -4,87 +4,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="Description" content="An example of homework for the frontend course">
+    <meta name="keywords" content="make, list, a table, layout, the form, frontend">
+    <meta name="Author" content="Vladyslav Talovyria">
+    <title>Homework File2.4 Frontend SkillUp</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div id="header">The World of Fruit</div>
-    <div id="titleform">Fruit Survey</div>
-    <div id="root">
-        <div id="left">
-            <div class="data1">
-                <p>Name</p>
+    <header>
+        <div id="top">Домашнее задание 2.4 подготовительного курса по Frontend онлайн школы SkillUP</div>
+        <nav>
+            <div class="home">
+                <p><a class="phome" href="/Homeworks2/index.html">Список домашних заданий</a></p>
             </div>
-            <div class="data1">
-            <p>Address</p>
+            <div class="task">
+                <p><a class="phome" href="/Homeworks2/index.html#File2.4">Задание 2.4</a></p>
             </div>
-            <div class="data1">
-                <p>Email</p>
+            <div class="solution">
+                <p>Решение задания 2.4</p>
             </div>
-            <div class="data2">
-                <p>How many pieces of fruit do you eat per day?</p>
+        </nav>
+    </header>
+    <main>
+        <div id="header">The World of Fruit</div>
+        <div id="titleform">Fruit Survey</div>
+        <div id="root">
+            <div id="left">
+                <div class="data1">
+                    <p>Name</p>
+                </div>
+                <div class="data1">
+                    <p>Address</p>
+                </div>
+                <div class="data1">
+                    <p>Email</p>
+                </div>
+                <div class="data2">
+                    <p>How many pieces of fruit do you eat per day?</p>
+                </div>
+                <div class="data3">
+                    <p>My favourite fruit</p>
+                </div>
+                <div class="data4">
+                    <p>Would you like a brochure?</p>
+                </div>
             </div>
-            <div class="data3">
-                <p>My favourite fruit</p>
-            </div>
-            <div class="data4">
-                <p>Would you like a brochure?</p>
-            </div>
-        </div>
-        <div id="right">
-            <div>
-                <form method="GET" name="forma" class="loginform">
-                    <div class="data5">
-                        <p id="name">
-                            <label></label>
-                            <input type="text" name="name">
-                        </p>
-                        <p id="address">
-                            <label></label>
-                            <input type="text" name="address">
-                        </p>
-                        <p id="email">
-                            <label></label>
-                            <input type="email" name="email">
-                        </p>
-                    </div>
-                    <div class="data6">
-                        <p><input type="radio" name="option0" value="op0">0</p>
-                        <p><input  type="radio" name="option1" value="op1">1</p>
-                        <p><input type="radio" name="option2" value="op2">2</p>
-                        <p><input type="radio" name="option3" value="op3">More than 2</p>
-                    </div>
-                    <div class="data7">
-                        <div id="fruits">
-                            <select size="4" name="fruit">
-                                <option value="Apple">Apple</option>
-                                <option value="Banana">Banana</option>
-                                <option value="Plum">Plum</option>
-                                <option value="Pomegranate">Pomegranate</option>
-                                <option value="Lemon">Lemon</option>
-                                <option value="Orange">Orange</option>
-                            </select>
+            <div id="right">
+                <div>
+                    <form method="GET" name="forma" class="loginform">
+                        <div class="data5">
+                            <p id="name">
+                                <label></label>
+                                <input type="text" name="name">
+                            </p>
+                            <p id="address">
+                                <label></label>
+                                <input type="text" name="address">
+                            </p>
+                            <p id="email">
+                                <label></label>
+                                <input type="email" name="email">
+                            </p>
+                        </div>
+                        <div class="data6">
+                            <p><input type="radio" name="option0" value="op0">0</p>
+                            <p><input type="radio" name="option1" value="op1">1</p>
+                            <p><input type="radio" name="option2" value="op2">2</p>
+                            <p><input type="radio" name="option3" value="op3">More than 2</p>
+                        </div>
+                        <div class="data7">
+                            <div id="fruits">
+                                <select size="4" name="fruit">
+                                    <option value="Apple">Apple</option>
+                                    <option value="Banana">Banana</option>
+                                    <option value="Plum">Plum</option>
+                                    <option value="Pomegranate">Pomegranate</option>
+                                    <option value="Lemon">Lemon</option>
+                                    <option value="Orange">Orange</option>
+                                </select>
+                            </div>
+
+                        </div>
+                        <div class="data8">
+                            <p>
+                                <label></label>
+                                <input type="checkbox" name="checklike">
+                            </p>
+                        </div>
+                        <div id="btnsubmit">
+                            <input type="submit" value="Submit">
                         </div>
 
-                    </div>
-                    <div class="data8">
-                        <p>
-                            <label></label>
-                            <input type="checkbox" name="checklike">
-                        </p>
-                    </div>
-                    <div id="btnsubmit">
-                        <input type="submit" value="Submit">
-                    </div>
+
+                    </form>
 
 
-                </form>
-
-
+                </div>
             </div>
         </div>
-    </div>
+    </main>
+    <footer>
+        <p id="pfooter">&copy; SkillUp 2021</p>
+    </footer>
 </body>
 
 </html>

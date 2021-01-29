@@ -3,5 +3,53 @@
     }
  .disc{
     list-style-type:disc
- }   
+ }  
+ #pfooter{
+   text-align: center;
+   padding: 5px;
+} 
+main{
+   width: 100%;
+   padding: 5px;
+}
+.home{
+   display: inline-block;
+   width: 30%;
+   padding: 5px 5px 20px 5px;
+   text-align: left;    
+}
+.task{
+   display: inline-block;
+   width: 30%;
+   padding: 5px 5px 20px 5px;
+ text-align: right;
+ font-family: Arial;
+ text-decoration: none; 
+   color: rgb(110, 110, 110);
+   font-weight: bold;
+}
+.solution{
+   display: inline-block;
+   width: 30%;
+   padding: 5px 5px 20px 5px;
+   text-align: left;
+   font-family: Arial;
+   font-weight: bold;   
+}
+.phome{
+   text-decoration: none; 
+   color: rgb(110, 110, 110);
+   font-weight: bold;
+   font-family: Arial;
+   font-size: 18px;
+}
+#top{
+   width: 100%px;
+   padding: 5px 5px 10px 5px;
+   text-align: center;
+   font-size: 20px;
+   font-weight: bold;
+   font-family: Arial;
+   background-color: blanchedalmond;
+}
     

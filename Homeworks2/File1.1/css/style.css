@@ -1,18 +1,6 @@
-table{
-    border: 2px solid black;
-    border-collapse: collapse;   
-}
-.bottom, td{
-    border: 1px solid rgb(175, 172, 172);
-    padding: 10px;
-}
-.header{
-    text-align: center;
-    font-weight: bold;
-    padding: 10px;
-}
-.head{
-    border:1px solid black;
+*{
+    padding: 0px;
+    margin: 0px;
 }
 main{
     width: 100%;
@@ -21,6 +9,9 @@ main{
 #pfooter{
     text-align: center;
     padding: 5px;
+ } 
+ a:hover {
+    color: #000000;
 }
 .home{
     display: inline-block;
@@ -62,5 +53,3 @@ main{
     font-family: Arial;
     background-color: blanchedalmond;
 }
-
-
